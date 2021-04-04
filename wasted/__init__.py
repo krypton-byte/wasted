@@ -4,7 +4,7 @@ path=os.path.dirname(os.path.abspath(__file__))
 if not "pricedown bl.ttf" in os.listdir(path):
     print("downloading font pricedown bl.ttf")
     import requests
-    open(f"{path}/pricedown bl.ttf", "wb").write(requests.get("https://github.com/krypton-byte/wasted/raw/master/pricedown%20bl.ttf").content)
+    open(f"{path}/pricedown bl.ttf", "wb").write(requests.get("https://github.com/krypton-byte/wasted/raw/master/wasted/pricedown%20bl.ttf").content)
 def resizeTo(x, y, width_=1000):
     if x == y:
         width, height = width_, width_
